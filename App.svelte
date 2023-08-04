@@ -47,7 +47,7 @@
         rgba(var(--rgbaColor)),
         rgba(var(--rgbaColor))
       ),
-      url("https://loremflickr.com/640/320/map,europe/all") no-repeat top center;
+      url("https://loremflickr.com/640/320/map,europe/all?lock=77") no-repeat top center;
   }
 
   input[type="number"] {
@@ -58,7 +58,7 @@
 <main style="--img-brightness: {brightness}; --rgbaColor: {rgbaColor}">
   <div class="wraper">
   <div class="container">
-  <img src="https://loremflickr.com/640/320/map,europe/all
+  <img src="https://loremflickr.com/640/320/map,europe/all?lock=77
 " alt="random">
 </div>
   <h3>brightness: {brightness.toFixed(1)}</h3>
@@ -69,8 +69,7 @@
   <div class="secondcontainer">
   </div>
   <h3>color overlay: {overlay.toFixed(1)}</h3>
-	<input bind:value={overlay} type="range" min="0" max="1" step="0.1">
-  <input type="number" bind:value={overlay} min="0" max="1" step="0.1">
+	<div></div>
   <h3>color: {color}</h3>
   <h3>rgbaColor: {rgbaColor}</h3>
   <input type="color" bind:value={color}>

@@ -1,0 +1,8 @@
+main.svelte-12x2r6a{font-family:sans-serif;text-align:center;display:flex;flex-direction:row;justify-content:space-between;align-items:flex-start;padding:5vmin}.wraper.svelte-12x2r6a{margin:0;padding:0}.container.svelte-12x2r6a{filter:brightness(var(--img-brightness))}.secondcontainer.svelte-12x2r6a{height:320px;width:640px;background:linear-gradient(
+        to top,
+        rgba(var(--rgbaColor)),
+        rgba(var(--rgbaColor))
+      ),
+      url("https://loremflickr.com/640/320/map,europe/all?lock=77") no-repeat top center}input[type="number"].svelte-12x2r6a{width:35px}
+
+/*# sourceMappingURL=bundle.css.map */
